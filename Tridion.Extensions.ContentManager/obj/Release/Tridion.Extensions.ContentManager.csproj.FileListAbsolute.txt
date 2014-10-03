@@ -1,0 +1,11 @@
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.Extensions.ContentManager.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.Extensions.ContentManager.pdb
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.Common.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.ContentManager.Common.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.ContentManager.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.ContentManager.Publishing.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.ContentManager.Templating.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Release\Tridion.Logging.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Release\Tridion.Extensions.ContentManager.csprojResolveAssemblyReference.cache
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Release\Tridion.Extensions.ContentManager.dll
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Release\Tridion.Extensions.ContentManager.pdb

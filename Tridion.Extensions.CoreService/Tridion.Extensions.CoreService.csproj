@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D9BD8EA2-E6B6-46BE-8A2D-3B220EE6C0D0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tridion.Extensions.CoreService</RootNamespace>
+    <AssemblyName>Tridion.Extensions.CoreService</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Tridion.ContentManager.CoreService.Client, Version=7.1.0.1290, Culture=neutral, PublicKeyToken=ddfc895746e5ee6b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\references\2011\Tridion.ContentManager.CoreService.Client.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\DateTimeExtensions.cs">
+      <Link>dotnet\DateTimeExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\IDictionaryExtensions.cs">
+      <Link>dotnet\IDictionaryExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\IEnumerableExtensions.cs">
+      <Link>dotnet\IEnumerableExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\ObjectExtensions.cs">
+      <Link>dotnet\ObjectExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\StringExtensions.cs">
+      <Link>dotnet\StringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\XElementExtensions.cs">
+      <Link>dotnet\XElementExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\Tridion.Extensions.ContentManager\dotnet\XmlDocumentExtensions.cs">
+      <Link>dotnet\XmlDocumentExtensions.cs</Link>
+    </Compile>
+    <Compile Include="Events\ItemEvent.cs" />
+    <Compile Include="Extensions\ComponentExtension.cs" />
+    <Compile Include="Enum\ContentType.cs" />
+    <Compile Include="Extensions\FolderExtension.cs" />
+    <Compile Include="Extensions\IdentifiableObjectDataExtension.cs" />
+    <Compile Include="Extensions\IEnumerableExtensions.cs" />
+    <Compile Include="Extensions\KeywordExtension.cs" />
+    <Compile Include="Extensions\LinkToExtension.cs" />
+    <Compile Include="Extensions\PageExtensions.cs" />
+    <Compile Include="Extensions\CategoryExtension.cs" />
+    <Compile Include="Extensions\TcmUriExtensions.cs" />
+    <Compile Include="Extensions\XElementExtensions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\TcmUri.cs" />
+    <Compile Include="Wrapper.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\DataSources\System.Xml.Linq.XElement.datasource" />
+    <None Include="Scripts\CoreService.Sample" />
+    <None Include="Scripts\CoreService.Sample.linq">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

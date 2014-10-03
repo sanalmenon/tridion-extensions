@@ -1,0 +1,31 @@
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll.config
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.pdb
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.dll
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.pdb
+D:\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.csprojResolveAssemblyReference.cache
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll.config
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.pdb
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.csprojResolveAssemblyReference.cache
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.dll
+E:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.pdb
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll.config
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.pdb
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.dll
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.pdb
+G:\CloudStorage\SkyDrive\Dev\Visual Studio\Projects\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.csprojResolveAssemblyReference.cache
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll.config
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.pdb
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.dll
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.pdb
+G:\CloudStorage\SkyDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.csprojResolveAssemblyReference.cache
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll.config
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.dll
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.CoreServiceWrapper.pdb
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.csprojResolveAssemblyReference.cache
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.dll
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\obj\Debug\Tridion.CoreServiceWrapper.pdb
+E:\OneDrive\Dev\Sources\Tridion.CoreServiceWrapper\tridion.coreservicewrapper\Tridion.CoreServiceWrapper\bin\Debug\Tridion.ContentManager.CoreService.Client.dll

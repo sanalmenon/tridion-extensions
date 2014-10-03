@@ -1,0 +1,14 @@
+<Query Kind="Program">
+  <Reference>&lt;RuntimeDirectory&gt;\System.ServiceModel.dll</Reference>
+  <Reference Relative="..\bin\Debug\Tridion.Extensions.CoreService.dll">&lt;MyDocuments&gt;\Visual Studio 2010\Projects\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll</Reference>
+  <Namespace>Tridion.Extensions.CoreService</Namespace>
+  <Namespace>Tridion.Extensions.CoreService.CoreService2011</Namespace>
+</Query>
+
+void Main()
+{
+	var client = Wrapper.GetCoreServiceInstance("54.247.167.126","Kunal","Tr1d10n2011",string.Empty);
+	Console.WriteLine(client.GetApiVersion());
+}
+
+// Define other methods and classes here
