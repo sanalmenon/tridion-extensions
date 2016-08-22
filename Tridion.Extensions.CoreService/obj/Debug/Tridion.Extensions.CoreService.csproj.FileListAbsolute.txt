@@ -4,3 +4,11 @@ E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.csprojResolveAssemblyReference.cache
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.dll
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.pdb
+E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.csprojResolveAssemblyReference.cache
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.pdb
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll.config
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.pdb
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.ContentManager.CoreService.Client.dll

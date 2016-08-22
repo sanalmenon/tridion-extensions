@@ -7,17 +7,18 @@ namespace Tridion.Extensions.CoreService
     public static class Wrapper
     {
         public static SessionAwareCoreServiceClient Instance { get; set; }
-        public static SessionAwareCoreServiceClient GetCoreServiceInstance(string hostName, string username,string password, string domain, CoreServiceInstance version)
+
+        public static SessionAwareCoreServiceClient GetCoreServiceInstance(string hostName, string username, string password, string domain, CoreServiceInstance version)
         {
             var netTcpBinding = new NetTcpBinding
-                                    {
-                                        MaxReceivedMessageSize = 2147483647,
-                                        ReaderQuotas = new XmlDictionaryReaderQuotas
-                                                           {
-                                                               MaxStringContentLength = 2147483647,
-                                                               MaxArrayLength = 2147483647
-                                                           }
-                                    };
+            {
+                MaxReceivedMessageSize = 2147483647,
+                ReaderQuotas = new XmlDictionaryReaderQuotas
+                {
+                    MaxStringContentLength = 2147483647,
+                    MaxArrayLength = 2147483647
+                }
+            };
 
             var remoteAddress =
                 new EndpointAddress(
@@ -35,9 +36,9 @@ namespace Tridion.Extensions.CoreService
                 coreServiceClient.ClientCredentials.Windows.ClientCredential.Domain = domain;
 
             //coreServiceClient.Impersonate("Siavash Shibani");
-            
+
             Instance = coreServiceClient;
-           
+
             return Instance;
         }
 
@@ -75,10 +76,11 @@ namespace Tridion.Extensions.CoreService
             return Instance;
         }
     }
-    
+
     public enum CoreServiceInstance
     {
-       Tridion2011 = 2011,
-       Tridion2013 = 2013
+        Tridion2011 = 2011,
+        Tridion2013 = 2013,
+        SdlWeb8 = 201501
     }
 }

@@ -15,3 +15,14 @@ E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentMana
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.csprojResolveAssemblyReference.cache
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.dll
 E:\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.pdb
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.Extensions.ContentManager.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.Extensions.ContentManager.pdb
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.Common.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.ContentManager.Common.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.ContentManager.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.ContentManager.Publishing.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.ContentManager.Templating.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\bin\Debug\Tridion.Logging.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.csprojResolveAssemblyReference.cache
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.dll
+D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.pdb
