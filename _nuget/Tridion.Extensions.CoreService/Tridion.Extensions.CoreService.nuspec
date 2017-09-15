@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>tridion-extensions-coreservice</id>
+        <!-- Version is set by Build.proj -->
+        <version>0.0.0</version>
+        <!-- NOTE: Visual Studio's NuGet UI only shows 'id' and 'description' -->
+        <title>Tridion.Extensions.CoreService</title>
+        <summary>Set of extensions method for the Tridion CoreService</summary>
+        <authors>Siawash Shibani</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Tridion Templating extensions</description>
+        <copyright></copyright>
+        <tags>Tridion Web8 web 8 CoreService content manager extensions</tags>
+	   
+    </metadata>
+    <files>
+        <file src="..\..\build\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService.dll" target="lib\net452" />
+        <file src="..\..\build\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService.pdb" target="lib\net452" />
+    </files>
+</package>

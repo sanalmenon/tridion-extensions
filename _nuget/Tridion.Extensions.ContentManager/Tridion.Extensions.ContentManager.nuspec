@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>tridion-extensions-contentmanager</id>
+        <!-- Version is set by Build.proj -->
+        <version>100.0</version>
+        <!-- NOTE: Visual Studio's NuGet UI only shows 'id' and 'description' -->
+        <title>Tridion.Extensions.ContentManager</title>
+        <authors>Siawash Shibani</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Tridion Templating extensions</description>
+        <copyright></copyright>
+        <tags>Tridion Web8 web 8 content manager extensions</tags>
+	   
+    </metadata>
+    <files>
+          <file src="ReadMe.txt" />
+        <file src="..\..\build\Tridion.Extensions.ContentManager\Tridion.Extensions.ContentManager.dll" target="lib\net452" />
+        <file src="..\..\build\Tridion.Extensions.ContentManager\Tridion.Extensions.ContentManager.pdb" target="lib\net452" />
+    </files>
+</package>

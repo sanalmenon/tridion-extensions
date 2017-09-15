@@ -1,4 +1,5 @@
-﻿using System.Xml.Linq;
+﻿using System;
+using System.Xml.Linq;
 using Tridion.ContentManager.CoreService.Client;
 using Tridion.Extensions.CoreService.Utils;
 
@@ -13,15 +14,32 @@ namespace Tridion.Extensions.CoreService.Extensions
 
         public static T GetItem<T>(this string webdav) where T : IdentifiableObjectData
         {
-            
-            if (!webdav.StartsWith("webdav")) webdav = string.Format("webdav/{0}", webdav);
-            return ((T)Wrapper.Instance.Read(webdav, new ReadOptions()));
+            if (!webdav.StartsWith("/")) webdav = string.Format("/{0}", webdav);
+            if (!webdav.StartsWith("/webdav/")) webdav = string.Format("/webdav{0}", webdav);
+            T result;
+            try
+            {
+                result = ((T)Wrapper.Instance.Read(webdav, new ReadOptions()));
+            }
+            catch (Exception e)
+            {
+                result = default(T);
+            }
+            return result;
         }
 
         public static T GetItem<T>(this TcmUri tcmUri) where T : IdentifiableObjectData
         {
-             
-            return ((T) Wrapper.Instance.Read(tcmUri.ToString(), new ReadOptions())); 
+            T result;
+            try
+            {
+                result = ((T)Wrapper.Instance.Read(tcmUri.ToString(), new ReadOptions()));
+            }
+            catch (Exception e)
+            {
+                result = default(T);
+            }
+            return result;
         }
 
         public static XElement GetListXml(this TcmUri tcmUri, ItemType[] itemTypes, bool recursive)
@@ -36,13 +54,13 @@ namespace Tridion.Extensions.CoreService.Extensions
 
         public static XElement GetListXml(this TcmUri tcmUri, bool recursive)
         {
-            ItemType[] list = {};
+            ItemType[] list = { };
             return GetListXml(tcmUri, list, recursive);
         }
 
         public static XElement GetListXml(this TcmUri tcmUri, ItemType itemType, bool recursive)
         {
-            ItemType[] list = {itemType};
+            ItemType[] list = { itemType };
             return GetListXml(tcmUri, list, recursive);
         }
     }

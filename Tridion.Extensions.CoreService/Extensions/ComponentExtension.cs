@@ -10,21 +10,21 @@ namespace Tridion.Extensions.CoreService.Extensions
 {
     public static class ComponentExtension
     {
-        public static int? GetVersion(this ComponentData component) 
+        public static int? GetVersion(this ComponentData component)
         {
             IdentifiableObjectData objectData = component;
-            return objectData.GetVersion(); 
+            return objectData.GetVersion();
         }
 
         public static LinkToUserData GetCheckedOutUser(this ComponentData component)
         {
-            IdentifiableObjectData objectData = component; 
+            IdentifiableObjectData objectData = component;
             return objectData.GetCheckedOutUser();
         }
 
-        public static XElement GetFieldAsXElement(this ComponentData componentData,string fieldName,ContentType ctype)
+        public static XElement GetFieldAsXElement(this ComponentData componentData, string fieldName, ContentType ctype)
         {
-            var element = XElement.Parse(GetContent(componentData,ctype));
+            var element = XElement.Parse(GetContent(componentData, ctype));
             return element.Descendants().FirstOrDefault(x => x.Name.LocalName == fieldName);
         }
 
@@ -37,12 +37,12 @@ namespace Tridion.Extensions.CoreService.Extensions
             {
                 elementToReplace.ReplaceWith(content);
             }
-            componentData.SetContent(ctype,element.ToXmlElement().OuterXml);
+            componentData.SetContent(ctype, element.ToXmlElement().OuterXml);
         }
 
-        public static string GetFieldAsString(this ComponentData componentData, string fieldName,ContentType ctype)
+        public static string GetFieldAsString(this ComponentData componentData, string fieldName, ContentType ctype)
         {
-            var element = XElement.Parse(GetContent(componentData,ctype));
+            var element = XElement.Parse(GetContent(componentData, ctype));
 
             var e = element.Descendants().FirstOrDefault(x => x.Name.LocalName == fieldName);
             if (null != e)
@@ -51,7 +51,7 @@ namespace Tridion.Extensions.CoreService.Extensions
                 return String.Empty;
         }
 
-        public static void SetFieldFromString(this ComponentData componentData,string fieldName,ContentType ctype, string content)
+        public static void SetFieldFromString(this ComponentData componentData, string fieldName, ContentType ctype, string content)
         {
             var element = XElement.Parse(GetContent(componentData, ctype));
             var elementToReplace = element.Descendants().FirstOrDefault(x => x.Name.LocalName == fieldName);
@@ -59,7 +59,7 @@ namespace Tridion.Extensions.CoreService.Extensions
             {
                 elementToReplace.SetValue(content);
             }
-            componentData.SetContent(ctype,element.ToXmlElement().OuterXml);
+            componentData.SetContent(ctype, element.ToXmlElement().OuterXml);
         }
 
         /*public static void SetFieldFromComponentLink(this ComponentData componentData,string fieldName, ContentType ctype, string componentId)
@@ -80,13 +80,13 @@ namespace Tridion.Extensions.CoreService.Extensions
                     links.Add(href.Value);
             }
         }*/
-       
-        public static string GetFieldAsComponentLink(this ComponentData componentData, string fieldName,ContentType ctype, string content)
+
+        public static string GetFieldAsComponentLink(this ComponentData componentData, string fieldName, ContentType ctype, string content)
         {
             return GetFieldAsComponentLinks(componentData, fieldName, ctype)[0];
         }
 
-        public static List<string> GetFieldAsComponentLinks(this ComponentData componentData, string fieldName,ContentType ctype)
+        public static List<string> GetFieldAsComponentLinks(this ComponentData componentData, string fieldName, ContentType ctype)
         {
             XElement element = XElement.Parse(componentData.GetContent(ctype));
             var e = element.Descendants().Where(x => x.Name.LocalName == fieldName);
@@ -96,13 +96,18 @@ namespace Tridion.Extensions.CoreService.Extensions
             foreach (var link in e)
             {
                 var href = link.Attributes().FirstOrDefault(x => x.Name.LocalName == "href");
-                if(null != href)
+                if (null != href)
                     links.Add(href.Value);
             }
             return links;
         }
 
-        public static ComponentData GetFieldAsComponent(this ComponentData componentData, string fieldName,ContentType ctype)
+        public static FolderData GetParentFolder(this ComponentData component)
+        {
+            return component.LocationInfo.OrganizationalItem.IdRef.ToTcmUri().GetItem<FolderData>() as FolderData;
+        }
+
+        public static ComponentData GetFieldAsComponent(this ComponentData componentData, string fieldName, ContentType ctype)
         {
             return GetFieldAsComponents(componentData, fieldName, ctype)[0];
         }
@@ -133,29 +138,27 @@ namespace Tridion.Extensions.CoreService.Extensions
             //check if item exist; call update from identifalobjectdata otherwise Save
             return componentData.Update();
         }
-        
-        public static List<IdentifiableObjectData> GetAllComponentsBasedOnSchema(this ComponentData componentData,int resultLimit=-1)
+
+        public static List<IdentifiableObjectData> GetAllComponentsBasedOnSchema(this ComponentData componentData, int resultLimit = -1)
         {
-            
             List<IdentifiableObjectData> itemsToReturn = new List<IdentifiableObjectData>();
 
             var searchQuery = new SearchQueryData();
 
             searchQuery.BasedOnSchemas = new[] { new BasedOnSchemaData() { Schema = new LinkToSchemaData() { IdRef = componentData.Schema.IdRef } } };
-            searchQuery.ItemTypes = new[]  { ItemType.Component };
+            searchQuery.ItemTypes = new[] { ItemType.Component };
             searchQuery.SearchInSubtree = true;
             searchQuery.BaseColumns = ListBaseColumns.IdAndTitle;
-            
+
             if (resultLimit != -1) searchQuery.ResultLimit = resultLimit;
 
             var items = Wrapper.Instance.GetSearchResults(searchQuery);
 
             itemsToReturn.AddRange(items);
-            
-            return itemsToReturn;
 
+            return itemsToReturn;
         }
-    
+
         /*
          * TODO: Finish this method!
         public static List<IdentifiableObjectData> GetUsesItems(this ComponentData componentData)

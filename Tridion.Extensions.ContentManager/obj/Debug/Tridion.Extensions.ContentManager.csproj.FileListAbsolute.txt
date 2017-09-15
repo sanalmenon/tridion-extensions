@@ -26,3 +26,7 @@ D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.Conten
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.csprojResolveAssemblyReference.cache
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.dll
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.pdb
+D:\dev\Tridion.Extensions\build\Tridion.Extensions.ContentManager\Tridion.Extensions.ContentManager.dll
+D:\dev\Tridion.Extensions\build\Tridion.Extensions.ContentManager\Tridion.Extensions.ContentManager.pdb
+D:\dev\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.dll
+D:\dev\Tridion.Extensions\Tridion.Extensions.ContentManager\obj\Debug\Tridion.Extensions.ContentManager.pdb

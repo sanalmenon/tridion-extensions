@@ -12,7 +12,13 @@ namespace Tridion.Extensions.CoreService.Extensions
         public static void AddComponentPresentation(this PageData page, ComponentPresentationData cp)
         {
             page.ComponentPresentations.Concat(new[] { cp });
+        }
 
+        public static void RemoveComponentPresentation(this PageData page, ComponentPresentationData cp)
+        {
+            var list = page.ComponentPresentations.ToList();
+            list.Remove(cp);
+            page.ComponentPresentations = list.ToArray();
         }
     }
 }

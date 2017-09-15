@@ -9,15 +9,20 @@ namespace Tridion.Extensions.CoreService.Extensions
         {
             return linkTo.IdRef == TcmUri.Null ? null : linkTo.IdRef.ToTcmUri().GetItem<UserData>();
         }
+
         public static ComponentData GetComponent(this LinkToComponentData linkTo)
         {
             return linkTo.IdRef == TcmUri.Null ? null : linkTo.IdRef.ToTcmUri().GetItem<ComponentData>();
         }
+
         public static FolderData GetFolder(this LinkToFolderData linkTo)
         {
             return linkTo.IdRef == TcmUri.Null ? null : linkTo.IdRef.ToTcmUri().GetItem<FolderData>();
         }
-       
-        
+
+        public static OrganizationalItemData GetFolder(this LinkToOrganizationalItemData linkTo)
+        {
+            return linkTo.IdRef == TcmUri.Null ? null : linkTo.IdRef.ToTcmUri().GetItem<OrganizationalItemData>();
+        }
     }
 }

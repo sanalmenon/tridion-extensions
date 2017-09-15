@@ -12,3 +12,12 @@ D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreSe
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.pdb
 D:\data\OneDrive\Dev\Sources\Common\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll.config
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.dll
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.Extensions.CoreService.pdb
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\bin\Debug\Tridion.ContentManager.CoreService.Client.dll
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.dll
+D:\dev\Tridion.Extensions\Tridion.Extensions.CoreService\obj\Debug\Tridion.Extensions.CoreService.pdb
+D:\dev\Tridion.Extensions\build\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService.dll.config
+D:\dev\Tridion.Extensions\build\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService.dll
+D:\dev\Tridion.Extensions\build\Tridion.Extensions.CoreService\Tridion.Extensions.CoreService.pdb
